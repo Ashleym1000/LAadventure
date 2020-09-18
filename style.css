@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+  background-color:white;
+  margin: 0 auto;
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+  background-color: black;
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  opacity:80%;
+}
+strong{
+	color:#0067a4;
+}
+
+ul {
+  margin: 8px auto;
+  padding: 0 25px;
+  text-align: center;
+}
+
+li {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 300px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 10px;
+}
+a{
+  text-decoration: none;
+    color: white;
+
+}
+
+li:hover a{
+  color: #808080;
+  
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0 auto 10px auto;
+}
+
+h3 {
+  color: #466995;
+  font-family: 'Cedarville Cursive', cursive;
+  text-align: center;
+  margin:4px;
+}
+
+
+.welcome {
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom:20px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.pics {
+	  background-color:white;
+	  position: static;
+	  top: 30px;
+  	  display: grid;
+      grid-template-columns: repeat(3, 33.33%);
+}
+
+img{
+	height: 381px;
+	width: 421px;
+    position:relative;
+    top:0;
+    transition:all 2s ease-in-out;
+}
+.box {
+	position:relative;
+	margin: 0px;
+	height: 381px;
+	width: 421px;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+.box:hover {
+  opacity:0.5;
+}
+
+footer {
+	background-color:black;
+	text-align: center;
+    width:100%;
+	position:absolute;
+	overflow:hidden;
+}
+  
+ .info{
+	 margin:100px 200px;
+	 padding:2% 10%;
+	 margin: 50px 300px;
+	 border-bottom:solid;
+	 border-left:dotted;
+	 
+
+ }
+ .info, .info_on_img   h2{
+	 font-family: 'Lobster', cursive;
+ } 
+ .info,.info_on_img  p{
+	  text-align:justify;
+	 text-justify:inter-character;
+ }
+ 
+ .img_back{
+	 background-image: url("https://www.sanantonio-santorini.com/wp-content/uploads/2016/03/restaurant-top-image1.jpg");
+	 height:900px;
+	 }
+.info_on_img{
+	 margin:100px 200px;
+	 padding:2% 10%;
+	 margin: 50px 300px;
+}
+
+#info_left{
+     margin-left:50px;
+	 margin-right:600px;
+
+}
+#info_right{
+     margin-right:50px;
+	 margin-left:600px;
+	 background-color:black;
+	 opacity:70%;
+	 color:white;
+	 border-radius:50px;
+
+}
+.img_back_nba{
+	height:500px;
+	background-image:url("https://kentuckysportsradio.com/wp-content/uploads/2020/08/Effgrn_XsAA2mNb.jpeg");
+    background-color: black;
+	background-repeat:no-repeat;
+	background-position: center;
+    background-attachment: relative;
+}
+.placeholder1
+{
+    position: relative;
+	margin-left: 330px;
+	top:120px;
+}
+.placeholder2
+{
+    position: relative;
+	margin-left: 390px;
+	top:120px;
+}
+.placeholder3
+{
+    position: relative;
+	margin-left: 330px;
+	top:140px;
+}
+.placeholder4
+{
+    position: relative;
+	margin-left: 425px;
+	top:140px;
+}
+#placeholder5
+{
+    position: relative;
+	margin-left: 445px;
+	top:200px;
+}
+#placeholder6
+{
+    position: relative;
+	margin-left: 735px;
+	top:180px;
+}
+#placeholder7
+{
+    position: relative;
+	margin-left: 445px;
+	top:202px;
+}
+#placeholder8
+{
+    position: relative;
+	margin-left: 735px;
+	top:180px;
+}
+
+.placeholder9
+{
+    position: relative;
+	margin-left: 330px;
+	top:240px;
+}
+.placeholder10
+{
+    position: relative;
+	margin-left: 425px;
+	top:240px;
+}
+.placeholder11
+{
+    position: relative;
+	margin-left: 330px;
+	top:260px;
+}
+.placeholder12
+{
+    position: relative;
+	margin-left: 425px;
+	top:260px;
+}
+
+select:invalid{
+        color: gray;
+		background-color: #E0CD66;
+    }
+    option{
+        color: white;
+		background:black;
+    }
+
+
+
+
+
+
